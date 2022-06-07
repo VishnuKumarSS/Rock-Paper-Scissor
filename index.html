@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game1</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="choices">
+        <div class="choice"><button style="border-radius: 2rem; border:none"><img id="rock" src="rock.png" ></button></div>
+        <div class="choice"><button style="border-radius: 2rem; border:none"><img id="paper" src="paper.png"></button></div>
+        <div class="choice"><button style="border-radius: 2rem; border:none"><img id="scissor" src="scissor.png"></button></div>
+    </div>
+
+    <div class="result">
+        <div class="player" style="width: auto; padding: 1rem;; background-color: rgba(255, 255, 255, 0.532); border-radius: 2rem; text-align: center;  margin: 2rem; ">
+            Your Score-
+            <span id="userScore" class="score">0</span>
+        </div>
+        <div class="player" style=" width: auto; padding: 1rem; background-color: rgba(255, 255, 255, 0.532); border-radius: 2rem; text-align: center; margin: 2rem;">
+            Computer -
+            <span id="computerScore" class="score">0</span>
+        </div>
+    </div>
+    <div class="winOrLose">
+        <div id="winOrLose" style=" width: auto; padding:1rem; background-color: rgba(255, 255, 255, 0.532); border-radius: 2rem; text-align:center;">
+            Start the Game
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

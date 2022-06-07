@@ -1,0 +1,45 @@
+body {
+    background-color: #e6de7b;
+    font-family: 'Poppins';
+    font-size: 1.5rem;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+}
+.choice{
+    margin-top: 20px;
+    cursor:pointer;
+    font-size: 5rem;
+    width:12%;
+    transition: 100ms; /* little animation */
+}
+.choice:hover{
+    transform: scale(1.1);
+}
+
+.score {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+img {
+    width: 150px;
+    border-radius: 2rem;
+    height: 150px;
+}
+
+.result {
+    display:flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.winOrLose {
+    display:flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
